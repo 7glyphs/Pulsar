@@ -5,7 +5,7 @@
 //  Created by Vincent Esche on 3/5/19.
 //  Copyright © 2019 Regexident. All rights reserved.
 //
-
+#if os(iOS)
 import UIKit
 
 internal protocol ApplicationObserverDelegate: class {
@@ -51,3 +51,4 @@ internal class ApplicationObserver {
         self.delegate?.applicationDidEnterBackground()
     }
 }
+#endif

@@ -5,7 +5,7 @@
 //  Created by Vincent Esche on 2/6/15.
 //  Copyright (c) 2015 Vincent Esche. All rights reserved.
 //
-
+#if os(iOS)
 import QuartzCore
 
 extension CALayer {
@@ -56,3 +56,4 @@ extension CALayer {
 		}
 	}
 }
+#endif

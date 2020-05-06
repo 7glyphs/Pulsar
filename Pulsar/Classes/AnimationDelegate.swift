@@ -5,7 +5,7 @@
 //  Created by Vincent Esche on 3/5/19.
 //  Copyright © 2019 Regexident. All rights reserved.
 //
-
+#if os(iOS)
 import QuartzCore
 
 internal class AnimationDelegate: NSObject {
@@ -38,3 +38,4 @@ extension AnimationDelegate: CAAnimationDelegate {
         }
     }
 }
+#endif
